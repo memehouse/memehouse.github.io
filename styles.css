@@ -25,6 +25,7 @@ span::before {
   content: "Quick Links";
   position: absolute;
   color: transparent;
+  text-align: center;
   background-image: repeating-linear-gradient(
     45deg,
     transparent 0,
@@ -43,6 +44,7 @@ span::after {
   content: "Quick Links";
   position: absolute;
   color: transparent;
+  text-align: center;
   background-image: repeating-linear-gradient(
     135deg,
     transparent 0,
