@@ -1,14 +1,17 @@
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>MEMEHOUSE - Homepage</title>
 </head>
-<body>
-    <h1>MEMEHOUSE</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem rerum repellat ea at eum consequuntur iure, tempore iste earum voluptate odit beatae molestiae ad fugit natus fuga atque quos molestias.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem rerum repellat ea at eum consequuntur iure, tempore iste earum voluptate odit beatae molestiae ad fugit natus fuga atque quos molestias.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem rerum repellat ea at eum consequuntur iure, tempore iste earum voluptate odit beatae molestiae ad fugit natus fuga atque quos molestias.</p>
-</body>
+    svg(viewBox="0 0 600 300")
+  // Symbol
+  symbol#s-text
+    text(text-anchor="middle", x="50%", y="50%", dy=".35em")
+      | Testing
+  // Duplicate symbols
+  use.text(xlink:href="#s-text")
+  use.text(xlink:href="#s-text")
+  use.text(xlink:href="#s-text")
+  use.text(xlink:href="#s-text")
+  use.text(xlink:href="#s-text")
 </html>
