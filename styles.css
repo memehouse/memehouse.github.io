@@ -20,7 +20,7 @@ span {
 }
 
 span::before {
-  content: "Quick Links";
+  content: "Coming soon!";
   position: absolute;
   color: transparent;
   text-align: center;
@@ -39,7 +39,7 @@ span::before {
 }
 
 span::after {
-  content: "Quick Links";
+  content: "Coming soon!";
   position: absolute;
   color: transparent;
   text-align: center;
