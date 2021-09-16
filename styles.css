@@ -22,7 +22,7 @@ span {
 }
 
 span::before {
-  content: "PRATHAM";
+  content: "Sample Text";
   position: absolute;
   color: transparent;
   background-image: repeating-linear-gradient(
