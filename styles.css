@@ -17,6 +17,7 @@ span {
   display: block;
   color: #cf1b1b;
   font-size: 124px;
+  text-align: center;
   letter-spacing: 8px;
   cursor: pointer;
 }
