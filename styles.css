@@ -14,8 +14,8 @@ span {
   transform: translate(-50%, -50%);
   display: block;
   color: #1351EC;
-  font-size: 124px;
-  letter-spacing: 8px;
+  font-size: 62px;
+  letter-spacing: 4px;
   cursor: pointer;
 }
 
@@ -27,9 +27,9 @@ span::before {
   background-image: repeating-linear-gradient(
     45deg,
     transparent 0,
-    transparent 2px,
-    white 2px,
-    white 4px
+    transparent 1px,
+    white 1px,
+    white 2px
   );
   -webkit-background-clip: text;
   top: 0px;
@@ -46,9 +46,9 @@ span::after {
   background-image: repeating-linear-gradient(
     135deg,
     transparent 0,
-    transparent 2px,
-    white 2px,
-    white 4px
+    transparent 1px,
+    white 1px,
+    white 2px
   );
   -webkit-background-clip: text;
   top: 0px;
@@ -57,12 +57,12 @@ span::after {
 }
 
 span:hover:before {
-  top: 10px;
-  left: 10px;
+  top: 5px;
+  left: 5px;
 }
 
 span:hover:after {
-  top: -10px;
-  left: -10px;
+  top: -5px;
+  left: -5px;
 } 
 
