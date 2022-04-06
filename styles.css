@@ -20,7 +20,7 @@ span {
 }
 
 span::before {
-  content: "Coming soon!";
+  content: "MEMEHOUSE";
   position: absolute;
   color: transparent;
   text-align: center;
@@ -39,7 +39,7 @@ span::before {
 }
 
 span::after {
-  content: "Coming soon!";
+  content: "MEMEHOUSE";
   position: absolute;
   color: transparent;
   text-align: center;
