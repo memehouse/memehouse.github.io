@@ -18,7 +18,7 @@
 </div>
 
 
-<button class="button button1">More Work (coming soon)</button>
+<button class="button button1" onclick="sharetweet()">Share it on twitter!</button>
 
 <style>
  
@@ -51,14 +51,26 @@
 </style>
 
 <script>
+  function sharetweet() {
+      var shareURL = "http://twitter.com/share?"; //url base
+      //params
+      var params = {
+        url: "http://google.com", 
+        text: "Wow! There is only " days " days, " hours " hours, " minutes " Minutes, " seconds " seconds until the last day of school!",
+        via: "sometwitterusername",
+      }
+      for(var prop in params) shareURL += '&' + prop + '=' + encodeURIComponent(params[prop]);
+      window.open(shareURL, '', 'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
+  }
+</script>
+
+<script>
   (function () {
   const second = 1000,
         minute = second * 60,
         hour = minute * 60,
         day = hour * 24;
 
-  //I'm adding this section so I don't have to keep updating this pen every year :-)
-  //remove this if you don't need it
   let today = new Date(),
       dd = String(today.getDate()).padStart(2, "0"),
       mm = String(today.getMonth() + 1).padStart(2, "0"),
