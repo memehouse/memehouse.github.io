@@ -2,8 +2,10 @@ body {
   background-color: #52396e;
 }
 
-.maintext {
-  font-family: "DM Serif Display";
+@font-face {
+  font-family: myFirstFont;
+  src: url(https://memehouse.github.io/Margin.otf);
   color: white;
+  font-size: 40px;
   margin: auto;
 }
