@@ -9,11 +9,12 @@ body {
 
 .centered {
   margin: auto;
+  width: 50%;
 }
 
 .maintext {
   font-family: Margin;
   color: white;
-  font-size: 175px;
+  font-size: 150px;
 }
 
