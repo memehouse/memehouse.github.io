@@ -7,14 +7,10 @@ body {
   src: url(https://memehouse.github.io/Margin.otf);
 }
 
-.centered {
-  margin: auto;
-  width: 50%;
-}
-
 .maintext {
   font-family: Margin;
   color: white;
   font-size: 150px;
+  text-align: centered;
 }
 
