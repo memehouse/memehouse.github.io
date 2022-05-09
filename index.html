@@ -17,51 +17,18 @@
   </div>
 </div>
 
-
-<button class="button button1" onclick="sharetweet()">Share it on twitter!</button>
-
 <style>
- 
-.button {
-  position: absolute;
-  bottom: 0px;
-  border-radius: 13px;
-  color: white;
-  padding: 10px;
-  text-align: center;
-  font-family: Roboto;
-  text-decoration: none;
-  display: inline;
-  font-size: 14px;
-  margin: 10;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-.button1 {
-  background-color: #ffd54f; 
-  color: black; 
-  border: 2px solid black;
-}
-
-.button1:hover {
-  background-color: black;
-  color: ffd54f;
-}
+  .share {
+    position: absolute;
+    bottom: 0px;
+    margin: 10px;
 </style>
 
-<script>
-  function sharetweet() {
-      var shareURL = "http://twitter.com/share?"; //url base
-      //params
-      var params = {
-        url: "http://google.com", 
-        text: "memehouse.github.io has the best last day of school timer!",
-        via: "sometwitterusername",
-      }
-      for(var prop in params) shareURL += '&' + prop + '=' + encodeURIComponent(params[prop]);
-      window.open(shareURL, '', 'left=0,top=0,width=550,height=450,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
-  }
+
+<div class="share">
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="This website has the best last day until school timer, go check it out!" data-lang="en" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+    
 </script>
 
 <script>
