@@ -3,9 +3,13 @@ body {
 }
 
 @font-face {
-  font-family: myFirstFont;
+  font-family: Margin;
   src: url(https://memehouse.github.io/Margin.otf);
-  color: white;
-  font-size: 40px;
-  margin: auto;
 }
+
+.maintext {
+  font-family: Margin;
+  color: white;
+  font-size: 100px;
+}
+
