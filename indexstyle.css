@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Margin;
+  font-family: Souvenir;
   src: url(https://memehouse.github.io/Souvenir.otf);
 }
 
@@ -9,7 +9,7 @@ body {
 }
 
 .maintext {
-  font-family: Margin;
+  font-family: Souvenir;
   color: white;
   font-size: 125px;
   text-align: centered;
