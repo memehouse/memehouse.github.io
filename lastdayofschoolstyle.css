@@ -38,21 +38,22 @@ body {
 
 h1 {
   font-weight: normal;
-  letter-spacing: .125rem;
+  font-size: 3em;
+  letter-spacing: .240rem;
   text-transform: uppercase;
 }
 
 li {
   display: inline-block;
-  font-size: 1.5em;
+  font-size: 2.5em;
   list-style-type: none;
-  padding: 1em;
+  padding: .75em;
   text-transform: uppercase;
 }
 
 li span {
   display: block;
-  font-size: 4.5rem;
+  font-size: 6rem;
 }
 
 .emoji {
@@ -61,11 +62,11 @@ li span {
 }
 
 .emoji span {
-  font-size: 4rem;
+  font-size: 6rem;
   padding: 0 .5rem;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: px) {
   h1 {
     font-size: calc(1.5rem * var(--smaller));
   }
