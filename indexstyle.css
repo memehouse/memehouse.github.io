@@ -9,6 +9,7 @@ body {
 }
 
 .titletext {
+  position: absolute;
   margin: auto;
   font-family: Souvenir;
   color: white;
