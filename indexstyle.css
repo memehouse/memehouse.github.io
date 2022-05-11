@@ -4,16 +4,18 @@
 }
 
 body {
-  background-color: #9c442a;
+  background-color: black;
 }
 
 .titletext {
   margin: auto;
-  width: auto;
   text-align: center;
   font-family: Souvenir;
   color: white;
   font-size: 125px;
+  letter-spacing: 0.025em;
+    text-shadow: 5px 5px 0px #46b59b, 
+                  10px 10px 0px #017e7f, 
+                  15px 15px 0px #052939, 
+                  20px 20px 0px #000712;
 }
-
-
