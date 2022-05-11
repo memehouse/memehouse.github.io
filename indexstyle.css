@@ -10,12 +10,23 @@ body {
 .titletext {
   margin: auto;
   text-align: center;
+  text-decoration: none;
   font-family: Souvenir;
   color: white;
-  font-size: 125px;
+  font-size: 100px;
+  padding-bottom: 75px;
   letter-spacing: 0.025em;
     text-shadow: 5px 5px 0px #46b59b, 
                   10px 10px 0px #017e7f, 
                   15px 15px 0px #052939, 
                   20px 20px 0px #000712;
+}
+
+.lastdayofschool {
+  margin: auto;
+  text-decoration: none;
+  text-align: center;
+  font-family: Roboto;
+  color: #ffd54f;
+  font-size: 50px;
 }
