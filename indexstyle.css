@@ -9,11 +9,11 @@ body {
 
 .titletext {
   margin: auto;
-  width: 100%;
+  width: auto;
+  text-align: center;
   font-family: Souvenir;
   color: white;
   font-size: 125px;
-  text-align: center;
 }
 
 
