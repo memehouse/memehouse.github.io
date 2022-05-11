@@ -8,8 +8,8 @@ body {
 }
 
 .titletext {
-  position: absolute;
   margin: auto;
+  width: 100%;
   font-family: Souvenir;
   color: white;
   font-size: 125px;
