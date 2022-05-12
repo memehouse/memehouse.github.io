@@ -23,11 +23,24 @@ body {
                   20px 20px 0px #000712;
 }
 
-.lastdayofschool {
+.centered {
   margin: auto;
-  text-decoration: none;
   text-align: center;
+}
+
+.lastdayofschool {
+  text-decoration: none;
   font-family: Roboto;
   color: #ffd54f;
   font-size: 50px;
+  letter-spacing: .075em;
+  padding: 0px 20px 0px 20px;
+  transition-duration: 0.75s;
+}
+
+.lastdayofschool:hover {
+  background-color: #ffd54f;
+  color: black;
+  transition-timing-function: ease;
+  transition-delay: 0.05s;
 }
